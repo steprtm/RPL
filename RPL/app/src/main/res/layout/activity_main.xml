@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/dark_grey"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <LinearLayout
+        android:id="@+id/postLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNews"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+        <!-- Post Content: Name, Location, and Image -->
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New York, USA"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="RTX 3090" />
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="173dp"
+            android:layout_height="151dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rtx3090" /> <!-- Set your profile image here --> />
+
+        <TextView
+            android:id="@+id/textViewName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jane Doe"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewLocation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texas, USA"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="I3-12100f" />
+
+        <ImageView
+            android:id="@+id/imageViewProfile2"
+            android:layout_width="173dp"
+            android:layout_height="158dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/i312100" />
+
+        <!-- Set your profile image here --> />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postLayout"
+        android:layout_marginTop="103dp"
+        android:orientation="horizontal">
+
+        <!-- Home Button -->
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="Home" />
+
+        <!-- Search Button -->
+
+        <!-- Account Button -->
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Search" />
+
+        <!-- Settings Button -->
+        <Button
+            android:id="@+id/buttonAccount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Account" />
+
+        <Button
+            android:id="@+id/buttonSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Settings" />
+
+    </LinearLayout>
+
+</RelativeLayout>
