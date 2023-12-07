@@ -1,1 +1,10 @@
-# RPL
+
+## TUGAS RPL
+STEPHEN PRATAMA KURNIA
+
+TI.22.A5 312210635
+
+DOSEN PENGAMPUH : Wahyu Hadikristanto, S.Kom., M.Kom.
+
+
+Hasil Run :
