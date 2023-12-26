@@ -9,6 +9,10 @@ DOSEN PENGAMPUH : Wahyu Hadikristanto, S.Kom., M.Kom.
 
 Hasil Run :
 
-https://github.com/steprtm/RPL/assets/129705802/5414d2ca-bbb8-432c-94d8-0fe92fc03723
+
+
+https://github.com/steprtm/RPL/assets/129705802/e0621c2d-5ec0-4ccf-a3f5-7fde0d8bcb02
+
+
 
 
